@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_code_snippet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pretty_dark"
+    tools:context="net.wospy.scriptkeyboard.EditCodeSnippet">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:lines="23"
+    android:layout_margin="10dp"
+    android:gravity="top|left"
+    android:textDirection="ltr"
+    android:inputType="textMultiLine"
+    android:text="function doSomething(x){\n//Your Code Here\nreturn x;\n}"
+    android:background="@color/pretty_dark"
+    android:textColor="@color/white"
+    android:id="@+id/txtCode"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCode"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_weight="1"
+            android:id="@+id/btnSaveScript"
+            android:backgroundTint="@color/gray_light"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:onClick="cancelEdit"
+            android:backgroundTint="@color/gray_light"/>
+    </LinearLayout>
+
+</RelativeLayout>

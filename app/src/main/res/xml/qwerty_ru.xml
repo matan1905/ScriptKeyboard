@@ -1,0 +1,70 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="8%p">
+
+    <Row android:keyWidth="8.4%p">
+        <Key android:codes="49"  android:keyLabel="1" android:keyEdgeFlags="left"/>
+        <Key android:codes="50" android:keyLabel="2"/>
+        <Key android:codes="51"  android:keyLabel="3"/>
+        <Key android:codes="52" android:keyLabel="4"/>
+        <Key android:codes="53" android:keyLabel="5"/>
+        <Key android:codes="54" android:keyLabel="6"/>
+        <Key android:codes="55" android:keyLabel="7"/>
+        <Key android:codes="56"  android:keyLabel="8"/>
+        <Key android:codes="57"  android:keyLabel="9"/>
+        <Key android:codes="48"  android:keyLabel="0" />
+        <Key android:codes="34" android:keyLabel="&quot;"   />
+        <Key android:codes="-420" android:keyLabel="@string/script_brackets"  android:keyEdgeFlags="right"/>
+    </Row>
+    <Row  android:keyWidth="9.09%p">
+        <Key android:keyLabel="&#x0439;" android:popupCharacters="%" />
+        <Key android:keyLabel="&#x0446;" android:popupCharacters="^" />
+        <Key android:keyLabel="&#x0443;" android:popupCharacters="~"/>
+        <Key android:keyLabel="&#x043A;" android:popupCharacters="|"/>
+        <Key android:keyLabel="&#x0435;" android:popupCharacters="["/>
+        <Key android:keyLabel="&#x043D;" android:popupCharacters="]"/>
+        <Key android:keyLabel="&#x0433;" android:popupCharacters="@string/smaller_than"/>
+        <Key android:keyLabel="&#x0448;" android:popupCharacters=">"/>
+        <Key android:keyLabel="&#x0429;" android:popupCharacters="&quot;&quot;"/>
+        <Key android:keyLabel="&#x0437;" android:popupCharacters="{"/>
+        <Key android:keyLabel="&#x0445;" android:popupCharacters="}"/>
+    </Row>
+    <Row android:keyWidth="9.09%p">
+        <Key android:keyLabel="&#x0444;" android:popupCharacters="@string/at_char" />
+        <Key android:keyLabel="&#x044B;"  />
+        <Key android:keyLabel="&#x0432;"  android:popupCharacters="#"/>
+        <Key android:keyLabel="&#x0430;" android:popupCharacters="&amp;" />
+        <Key android:keyLabel="&#x043F;" android:popupCharacters="*"/>
+        <Key android:keyLabel="&#x0440;" android:popupCharacters="-"/>
+        <Key android:keyLabel="&#x043E;" android:popupCharacters="+"/>
+        <Key android:keyLabel="&#x043B;" android:popupCharacters="="/>
+        <Key android:keyLabel="&#x0434;" android:popupCharacters="/"/>
+        <Key android:keyLabel="&#x0436;" android:popupCharacters="()"/>
+        <Key android:keyLabel="&#x044D;" />
+    </Row>
+    <Row android:keyWidth="8.8%p">
+        <Key android:codes="-1"   android:keyEdgeFlags="left" android:keyWidth="10%p" android:keyIcon="@drawable/ic_file_upload"/>
+        <Key android:keyLabel="&#x044F;" android:popupCharacters="_"/>
+        <Key android:keyLabel="&#x0447;"  android:popupCharacters="$"/>
+        <Key android:keyLabel="&#x0441;" android:popupCharacters="'"/>
+        <Key android:keyLabel="&#x043C;" android:popupCharacters=":"/>
+        <Key android:keyLabel="&#x0438;" />
+        <Key android:keyLabel="&#x0442;" android:popupCharacters="!"/>
+        <Key android:keyLabel="&#x044C;" android:popupCharacters="("/>
+        <Key android:keyLabel="&#x0431;" android:popupCharacters=")"/>
+        <Key android:keyLabel="&#x044E;" />
+        <Key android:codes="-5"  android:keyWidth="12%p"  android:isRepeatable="true" android:keyIcon="@drawable/ic_backspace" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row android:rowEdgeFlags="bottom" android:keyHeight="9%p">
+        <Key android:codes="-2"  android:keyIcon="@drawable/ic_language_white_24dp" android:keyWidth="10%p"/>
+        <Key android:codes="-101" android:keyIcon="@drawable/ic_play_circle_outline_white_24dp" android:keyWidth="10%p"/>
+        <Key android:codes="44" android:keyLabel="," android:popupCharacters=";"/>
+        <Key android:codes="32"   android:keyLabel="SPACE"            android:keyWidth="45%p"/>
+        <Key android:codes="46" android:keyLabel="." android:popupCharacters="@string/questionMark"/>
+        <Key android:codes="-4"   android:keyWidth="15%p"  android:keyIcon="@drawable/ic_keyboard_return" android:keyEdgeFlags="right"/>
+
+    </Row>
+</Keyboard>

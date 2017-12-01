@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Script Keyboard</string>
+    <string name="card_ime">Script Keyboard</string>
+    <string name="subtype_en_US">English (US)</string>
+    <string name="at_char">\@</string>
+    <string name="smaller_than"><![CDATA[<]]></string>
+    <string name="questionMark">\?</string>
+    <string name="script_brackets">$||$</string>
+    <string name="hebrew">Hebrew (עברית)</string>
+    <string name="title_activity_code_snippets">Code Snippets</string>
+
+</resources>
